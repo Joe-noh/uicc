@@ -3,6 +3,8 @@ import resolve from 'rollup-plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser'
 import pkg from './package.json'
 
+const isDev = !!process.env.ROLLUP_WATCH
+
 export default {
   input: pkg.svelte,
   output: {
@@ -11,10 +13,11 @@ export default {
   },
   plugins: [
     svelte({
+      dev: isDev,
       customElement: true,
       tag: 'uicc-button'
     }),
     resolve(),
-    terser()
+    !isDev && terser()
   ]
 }

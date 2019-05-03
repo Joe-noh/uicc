@@ -1,19 +1,12 @@
 {
   "name": "@uicc/button",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "",
   "author": "Joe-noh",
   "homepage": "https://github.com/Joe-noh/uicc/tree/master/packages/button#readme",
   "license": "MIT",
   "module": "dist/index.js",
   "svelte": "src/Button.svelte",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Joe-noh/uicc.git"

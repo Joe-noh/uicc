@@ -1,0 +1,29 @@
+{
+  "name": "@uicc/button",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Joe-noh",
+  "homepage": "https://github.com/Joe-noh/uicc/tree/master/packages/button#readme",
+  "license": "MIT",
+  "module": "dist/index.js",
+  "svelte": "src/Button.svelte",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joe-noh/uicc.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Joe-noh/uicc/issues"
+  },
+  "devDependencies": {
+    "rollup": "^1.11.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "svelte": "^3.1.0"
+  }
+}

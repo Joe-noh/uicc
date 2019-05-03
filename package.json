@@ -6,6 +6,7 @@
   "scripts": {
     "lerna": "lerna",
     "build": "lerna exec npm run build",
+    "watch": "lerna exec npm run watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

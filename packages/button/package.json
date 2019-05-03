@@ -7,6 +7,9 @@
   "license": "MIT",
   "module": "dist/index.js",
   "svelte": "src/Button.svelte",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Joe-noh/uicc.git"

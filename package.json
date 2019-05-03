@@ -1,0 +1,23 @@
+{
+  "name": "uicc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lerna": "lerna",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joe-noh/uicc.git"
+  },
+  "author": "Joe-noh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joe-noh/uicc/issues"
+  },
+  "homepage": "https://github.com/Joe-noh/uicc#readme",
+  "devDependencies": {
+    "lerna": "^3.13.4"
+  }
+}

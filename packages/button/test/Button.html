@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="../node_modules/web-component-tester/browser.js"></script>
+    <script type="module" src="../dist/index.js"></script>
+  </head>
+  <body>
+    <uicc-button id="fixture">HEY</uicc-button>
+    <script>
+      suite('<uicc-button>', function() {
+        test('is awesomest', function() {
+          console.log(document.getElementById('fixture'))
+        })
+      })
+    </script>
+  </body>
+</html>

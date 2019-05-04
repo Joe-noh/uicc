@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="../node_modules/web-component-tester/browser.js"></script>
+    <script type="module" src="../dist/index.js"></script>
+  </head>
+  <body>
+    <uicc-button id="fixture">Hello</uicc-button>
+    <script>
+      suite('<uicc-button>', function() {
+        test('renders slot content', function() {
+          const el = document.getElementById('fixture')
+
+          expect(el.textContent).to.equal('Hello')
+        })
+      })
+    </script>
+  </body>
+</html>

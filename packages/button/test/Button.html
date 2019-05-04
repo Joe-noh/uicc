@@ -6,11 +6,13 @@
     <script type="module" src="../dist/index.js"></script>
   </head>
   <body>
-    <uicc-button id="fixture">HEY</uicc-button>
+    <uicc-button id="fixture">Hello</uicc-button>
     <script>
       suite('<uicc-button>', function() {
-        test('is awesomest', function() {
-          console.log(document.getElementById('fixture'))
+        test('renders slot content', function() {
+          const el = document.getElementById('fixture')
+
+          expect(el.textContent).to.equal('Hello')
         })
       })
     </script>

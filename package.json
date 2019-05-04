@@ -7,7 +7,9 @@
     "lerna": "lerna",
     "build": "lerna exec npm run build",
     "watch": "lerna exec npm run watch",
-    "test": "lerna exec npm test"
+    "test": "lerna exec npm test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,10 @@
   },
   "homepage": "https://github.com/Joe-noh/uicc#readme",
   "devDependencies": {
-    "lerna": "^3.13.4"
-  }
+    "lerna": "^3.13.4",
+    "@storybook/html": "^5.0.11",
+    "@babel/core": "^7.4.4",
+    "babel-loader": "^8.0.5"
+  },
+  "dependencies": {}
 }
